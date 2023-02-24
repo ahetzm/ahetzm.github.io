@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+body {
+    font-family: "Source Sans Mono", "Courier new", monospace;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #3a3a3a;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0D1117;
+        color: #C9D1D9;
+    }
+}
+
+#content {
+    padding: 0 1rem;
+    width: calc(100vw - 2rem);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content > div {
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+a {
+    color: #58a6ff;;
+    text-decoration: underline;
+}
